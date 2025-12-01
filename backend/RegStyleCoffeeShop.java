@@ -1,5 +1,5 @@
 package backend;
-class RegStyleCoffeeShop extends CoffeeShop {
+public class RegStyleCoffeeShop extends CoffeeShop {
     // different coffee orders
     @Override
     protected Coffee createCoffee(String type) {

@@ -1,5 +1,5 @@
 package backend;
-abstract class CoffeeShop {
+public abstract class CoffeeShop {
     public Coffee orderCoffee(String type) {
         // process order
         Coffee coffee = createCoffee(type);

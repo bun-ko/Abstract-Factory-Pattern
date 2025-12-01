@@ -1,5 +1,5 @@
 package backend;
-abstract class Coffee {
+public abstract class Coffee {
     // abstract class coffee for concrete classes
     public void brew() {
         System.out.println("brewing " + this.getClass().getSimpleName());
